@@ -1,1 +1,546 @@
-local _bR=(function(v0,v1,v2,v3)local v4={}return function(v5)local v6=v4[v5]if v6==nil then local v7=v3[v5]local v8={}for v9=1,#v7[1] do v8[v9]=v1((v0(v7[1],v9)-v7[2]-v9*v7[3])%256)end v6=v2(v8)v4[v5]=v6 end return v6 end end)(string.byte,string.char,table.concat,{{"\217\108\216\103\202\078\198",18,119},{"\161\042\126\228\083\158\022\137\243\076\172\020",231,102},{"\024\104\140\203\212\043\095\150\199\216\028\091\145\182\226\022",145,50},{"\001\037\041\043\055\063\052\242\030\070\063\083\084\088\089\099",186,3},{"\127\079\254\152\072\236\146\056\215\135\052\200\122\030\207\119\029",147,167},{"\013\166\033\138\013\120\244\098\227\013\172\071\179\058\174\037\153\022",81,118},{"\197\069\161\249\083\186\005\110\208\043",32,92},{"\040\164\255\095\199\032\059\190\071\156\014\110",123,96},{"\160\248\080\138\213\025\081\161\227\050\120\188",13,69},{"\040\159\022\111\224\051\082\215\103\195\052\143\237\079\192\041",118,100},{"\113\017\177\051\203\096\238",146,143},{"\255\128\226\071",77,98},{"\067\174\020\104\198\027\100\190\036\041\170\039\117\222\052\141\227\066",153,88},{"\021\135\220\060",104,91},{"\246\046\083\127\172\212\248\034\065\122\072\152\228\001\057\094\134\171\217",123,39},{"\088\254\148\035\167",111,144},{"\006\154\007\151\251\128\205\115\223",62,120},{"\026\063\092\084\121\135\171\171\202",182,18},{"\199\121\049\027\220\150\075\022",180,190},{"\060\242\124\030\158\049\211\085\243\091\017\154\052",104,145},{"\193\168\112\035\242\167\119\058\207\188\123\067\000\197",182,194},{"\207\241\018\023\041\068\047\111\117",106,18},{"\158\253\031\094\137",37,51},{"\124\086\019\213",109,189},{"\127\056\007\237\176\114\051\242",101,197},{"\010\084\160\213\230\052\110\170\234",125,57},{"\076\060\046\009\182\200\166\133\095\061",25,223},{"\038\029\002\242\201\187\148\048\100\068\029\025\233\218\108\156\125\107\080",240,228},{"\208\242\019\034\049\067\082\105\116\101\163\164\194\204",107,18},{"\110\214\081\214\077\193\058\179\032",165,116},{"\095\167\254\111\205\034\078\183\035\109\199\026",182,84},{"\040\200\072\197\024\180\066",101,125},{"\054\052\003\225\180\139\119\075\039",20,217},{"\218\119\253\153\017\168",250,138},{"\162\148",193,30},{"\103\250\139\031\157\043\173\239\190\080\220\019\191\109\239\137\001\140\038\160\054\150\068\197\087\083\122\041",135,137},{"\112\254\140\024\139\235\141\034\151",151,131},{"\241\176\109\045\161\166\115\051\240\179\059\225",193,192},{"\079\040\062\086\066\070\040\029\033\005\005\207\231\210\206\114\179\167\159\062\131\105\103\086\070\051\036\042\014\000\175\251\218\220",34,243},{"\195\240\029",118,45},{"\139\053\184\094\216\115",173,142},{"\013\104\223\078\152\015\111\229\055\168\247\030\196\053\153\002\018\188\027\135\238\075\174\232\050",78,100},{"\006\192\150\100\013\227\162\119\040\248\166\044\059\001\182\124\064\002\129\006\103\062\141\152\098\034\221\092\081\043\236\176\127\251\212\200\137\070\189\212\146\006\012\216\158\101\026",232,195}});local _a=game:GetService(_bR(1))local _b=game:GetService(_bR(2))local _c=game:GetService(_bR(3))local _d=_a.LocalPlayer local _e=(3003-2902)local _f={_bR(4),_bR(5),_bR(6),_bR(7),_bR(8),_bR(9),_bR(10),_bR(11),_bR(12),_bR(13),_bR(14),_bR(15),_bR(16),}local _g={{min=(6429-6328),colour=Color3.fromRGB((3068-2813),(-7982+8182),(3309-3249))},{min=(-8513+8593),colour=Color3.fromRGB((3299-3209),(6879-6624),(4834-4744))},{min=(-7844+7914),colour=Color3.fromRGB((-6465+6525),(-4903+5108),(-9867+9937))},{min=(-6696+6756),colour=Color3.fromRGB((-1132+1202),(9866-9701),(-9603+9663))},{min=(3426-3376),colour=Color3.fromRGB((-8225+8400),(548-348),(6408-6353))},{min=(9814-9774),colour=Color3.fromRGB((1313-1073),(-1971+2121),(7387-7347))},{min=(-8710+8740),colour=Color3.fromRGB((2829-2594),(-820+915),(-2334+2379))},{min=(4673-4653),colour=Color3.fromRGB((-8749+8964),(1958-1898),(-3820+3870))},{min=(9793-9783),colour=Color3.fromRGB((-6247+6447),(1418-1378),(1388-1343))},{min=(-329+329),colour=Color3.fromRGB((-5786+5926),(7538-7523),(3876-3856))},}local _h={refresh=0.5,tweenTime=0.5,maxUsers=(-3927+4127),trackW=(-4565+4755),trackH=(-561+570),rootW=(9967-9727),rootH=(9377-8977),viewerW=(5455-5175),viewerH=(-2734+3154),rowH=(-3958+3984),rowGap=(-9892+9896),viewerGap=(-2403+2703),}getgenv().killRepViewer=function()local _i=_d:FindFirstChild(_bR(17))local _j=_i and _i:FindFirstChild(_bR(18))if _j then _j:Destroy()end end local function _k(_l,_m,_n)for _o,_p in pairs(_m or{})do _l[_o]=_p end for _q,_r in ipairs(_n or{})do _r.Parent=_l end return _l end local function _s(_t,_u)_k(Instance.new(_bR(19)),{CornerRadius=UDim.new((5210-5210),_u or(-3116+3116)),Parent=_t})return _t end local function _v(_w)for _x,_y in ipairs(_g)do if _w>=_y.min then return _y.colour end end return _g[#_g].colour end local function _z(_A)local _B=_A:FindFirstChild(_bR(20))return _B and _B:FindFirstChild(_bR(21))or nil end local _C=_k(Instance.new(_bR(22)),{Name=_bR(18),ResetOnSpawn=false,IgnoreGuiInset=true,DisplayOrder=(10006905-6906),ZIndexBehavior=Enum.ZIndexBehavior.Sibling,Parent=_d:WaitForChild(_bR(17)),})getgenv().killRepViewer=function()if viewerThread then task.cancel(viewerThread);viewerThread=nil end for _D,_E in pairs(viewerRows or{})do if _E.tween then _E.tween:Cancel()end end viewerRows={}if viewer then viewer:Destroy();viewer=nil end viewerTarget=nil if _C then _C:Destroy()end end local _F=_s(_k(Instance.new(_bR(23)),{Name=_bR(24),Size=UDim2.fromOffset(_h.rootW,_h.rootH),Position=UDim2.new(0.5,-_h.rootW/(194-192),0.4,-_h.rootH/(-7628+7630)),BackgroundColor3=Color3.fromRGB((2743-2719),(2777-2751),(-1249+1281)),BorderSizePixel=(5878-5878),ClipsDescendants=true,}),(-1675+1683))_F.Parent=_C _k(Instance.new(_bR(25)),{Color=Color3.fromRGB((5110-5050),(-8519+8583),(-6505+6581)),Thickness=(-5882+5883),ApplyStrokeMode=Enum.ApplyStrokeMode.Border,Parent=_F,})local _G=_k(Instance.new(_bR(23)),{Size=UDim2.new((277-276),(-4065+4065),(2869-2869),(3815-3781)),BackgroundColor3=Color3.fromRGB((-8754+8786),(-9331+9366),(-8097+8139)),BorderSizePixel=(5061-5061),ZIndex=(2596-2595),})_G.Parent=_F _k(Instance.new(_bR(26)),{Parent=_G,Position=UDim2.fromOffset((5841-5831),(9635-9635)),Size=UDim2.new((540-539),-(-4783+4823),(8781-8780),(-953+953)),BackgroundTransparency=(-587+588),Font=Enum.Font.GothamBold,TextSize=(1969-1956),Text=_bR(1),TextXAlignment=Enum.TextXAlignment.Left,TextColor3=Color3.fromRGB((6311-6081),(1653-1423),(3557-3322)),ZIndex=(8987-8986),})local _H=_s(_k(Instance.new(_bR(27)),{Size=UDim2.new((4521-4520),-(373-359),(3645-3645),(-3705+3727)),Position=UDim2.fromOffset((7533-7526),(8095-8057)),BackgroundColor3=Color3.fromRGB((9129-9085),(-9035+9083),(-4079+4137)),Text=_bR(28),Font=Enum.Font.GothamMedium,TextSize=(-9573+9584),TextColor3=Color3.fromRGB((2128-1908),(-9178+9400),(-806+1036)),AutoButtonColor=true,ZIndex=(-8562+8563),}),(-3262+3267))_H.Parent=_F local _I=_k(Instance.new(_bR(29)),{Parent=_F,Position=UDim2.fromOffset((-8006+8006),(-954+1020)),Size=UDim2.new((7667-7666),(-5029+5029),(-5297+5298),-(5590-5524)),BackgroundTransparency=(7024-7023),BorderSizePixel=(7653-7653),ScrollBarThickness=(2930-2925),ScrollingDirection=Enum.ScrollingDirection.Y,ZIndex=(-2631+2632),},{_k(Instance.new(_bR(30)),{PaddingTop=UDim.new((-3551+3551),(9644-9640)),PaddingLeft=UDim.new((-7676+7676),(3604-3597)),PaddingRight=UDim.new((1016-1016),(6118-6111)),PaddingBottom=UDim.new((-3052+3052),(4294-4288)),}),_k(Instance.new(_bR(31)),{Padding=UDim.new((-382+382),_h.rowGap),SortOrder=Enum.SortOrder.LayoutOrder,}),})local function _J(_K,_L)local _M,_N,_O _L.InputBegan:Connect(function(_P)if _P.UserInputType==Enum.UserInputType.MouseButton1 or _P.UserInputType==Enum.UserInputType.Touch then _M=true _N=_P.Position _O=_K.AbsolutePosition _P.Changed:Connect(function()if _P.UserInputState==Enum.UserInputState.End then _M=false end end)end end)_c.InputChanged:Connect(function(_Q)if not _M then return end local _R=_Q.Position-_N _K.Position=UDim2.fromOffset(_O.X+_R.X,_O.Y+_R.Y)end)end _J(_F,_G)local _S,_T,_U,_V local function _W(_X)local _Y=_s(_k(Instance.new(_bR(23)),{Name=_X,Size=UDim2.new((9762-9761),(-5933+5933),(2580-2580),(7929-7897)),BackgroundColor3=Color3.fromRGB((-844+884),(-5227+5270),(-2421+2473)),BorderSizePixel=(2607-2607),LayoutOrder=(3353-3353),}),(-2249+2254))_k(Instance.new(_bR(26)),{Parent=_Y,Position=UDim2.fromOffset((-2465+2472),(-4060+4063)),Size=UDim2.new((351-350),-(5155-5141),(-6089+6089),(3212-3199)),BackgroundTransparency=(-306+307),Font=Enum.Font.GothamMedium,TextSize=(5238-5226),Text=_X,TextXAlignment=Enum.TextXAlignment.Left,TextColor3=Color3.fromRGB((-7105+7340),(-2707+2942),(-6788+7028)),TextTruncate=Enum.TextTruncate.AtEnd,})local _Z=_s(_k(Instance.new(_bR(23)),{Name=_bR(32),Position=UDim2.fromOffset((6374-6367),(-4252+4271)),Size=UDim2.fromOffset(_h.trackW,_h.trackH),BackgroundColor3=Color3.fromRGB((2171-2151),(-81+103),(-9045+9072)),BorderSizePixel=(-5118+5118),}),(-9239+9240))local _ba=_s(_k(Instance.new(_bR(23)),{Name=_bR(33),Size=UDim2.fromScale((2416-2416),(3601-3600)),BackgroundColor3=_g[#_g].colour,BorderSizePixel=(3650-3650),}),(2357-2356))_ba.Parent=_Z _Z.Parent=_Y return{frame=_Y,indicator=_ba,tween=nil}end local function _bb(_bc,_bd)local _be=math.floor(tonumber(_bd)or(-836+836))local _bf=math.clamp(_be/_e,(-9382+9382),(-7430+7431))if _bc.tween then _bc.tween:Cancel()end _bc.tween=_b:Create(_bc.indicator,TweenInfo.new(_h.tweenTime,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),{Size=UDim2.new(_bf,(8018-8018),(4718-4717),(-2183+2183)),BackgroundColor3=_v(_be)})_bc.tween:Play()_bc.frame.LayoutOrder=(4933-4833)-_bf*(894-794)end local function _bg()if _T then task.cancel(_T);_T=nil end for _bh,_bi in pairs(_U or{})do if _bi.tween then _bi.tween:Cancel()end end _U={}if _S then _S:Destroy();_S=nil end _V=nil end function openViewer(_bj)_bg()_V,_U=_bj,{}_S=_s(_k(Instance.new(_bR(23)),{Name=_bR(34),Size=UDim2.fromOffset(_h.viewerW,_h.viewerH),Position=UDim2.new(0.5,-_h.viewerW/(8696-8694)+_h.viewerGap,0.4,-_h.viewerH/(2350-2348)),BackgroundColor3=Color3.fromRGB((-5292+5316),(3847-3821),(7172-7140)),BorderSizePixel=(-1528+1528),ClipsDescendants=true,}),(-4437+4445))_S.Parent=_C _k(Instance.new(_bR(25)),{Color=Color3.fromRGB((-4007+4067),(-3520+3584),(3141-3065)),Thickness=(-622+623),ApplyStrokeMode=Enum.ApplyStrokeMode.Border,Parent=_S,})local _bk=_k(Instance.new(_bR(23)),{Size=UDim2.new((2565-2564),(-4932+4932),(1308-1308),(-6340+6374)),BackgroundColor3=Color3.fromRGB((-9416+9448),(-2085+2120),(-3342+3384)),BorderSizePixel=(-5926+5926),ZIndex=(4649-4648),})_bk.Parent=_S _k(Instance.new(_bR(26)),{Parent=_bk,Position=UDim2.fromOffset((1580-1570),(-1079+1079)),Size=UDim2.new((3695-3694),-(-9180+9226),(3773-3772),(7225-7225)),BackgroundTransparency=(-9791+9792),Font=Enum.Font.GothamBold,TextSize=(-4763+4775),Text=_bj.Name,TextXAlignment=Enum.TextXAlignment.Left,TextColor3=Color3.fromRGB((8194-7964),(-9052+9282),(-2876+3111)),TextTruncate=Enum.TextTruncate.AtEnd,ZIndex=(9345-9344),})local _bl=_s(_k(Instance.new(_bR(27)),{Size=UDim2.fromOffset((-1592+1616),(-6944+6968)),Position=UDim2.new((-9414+9415),-(-4849+4877),(-3824+3824),(-9612+9617)),BackgroundColor3=Color3.fromRGB((-8334+8514),(1694-1634),(-7920+7980)),Text=_bR(35),TextSize=(-3967+3983),Font=Enum.Font.GothamBold,TextColor3=Color3.new((-3538+3539),(6660-6659),(3292-3291)),AutoButtonColor=true,ZIndex=(-4155+4157),}),(8227-8221))_bl.Parent=_bk _bl.MouseButton1Click:Connect(_bg)local _bm=_k(Instance.new(_bR(26)),{Parent=_S,Position=UDim2.fromOffset((3191-3191),(-6201+6237)),Size=UDim2.new((969-968),(-4929+4929),(7599-7599),(-8989+9009)),BackgroundTransparency=(9758-9757),Font=Enum.Font.Gotham,TextSize=(4184-4173),Text=_bR(36),TextTruncate=Enum.TextTruncate.AtEnd,TextXAlignment=Enum.TextXAlignment.Left,TextColor3=Color3.fromRGB((8604-8444),(28+137),(-9233+9413)),ZIndex=(9831-9830),},{_k(Instance.new(_bR(30)),{PaddingLeft=UDim.new((2591-2591),(418-408))})})local _bn=_k(Instance.new(_bR(29)),{Parent=_S,Position=UDim2.fromOffset((97-97),(-1019+1077)),Size=UDim2.new((-1264+1265),(3299-3299),(-6836+6837),-(-353+411)),BackgroundTransparency=(-40+41),BorderSizePixel=(-3235+3235),ScrollBarThickness=(-7047+7052),ScrollingDirection=Enum.ScrollingDirection.Y,ZIndex=(8468-8467),},{_k(Instance.new(_bR(30)),{PaddingTop=UDim.new((6159-6159),(-9807+9811)),PaddingLeft=UDim.new((-4763+4763),(7975-7965)),PaddingRight=UDim.new((-1912+1912),(6831-6821)),PaddingBottom=UDim.new((3514-3514),(-7053+7059)),}),_k(Instance.new(_bR(31)),{Padding=UDim.new((-6871+6871),(9210-9205)),SortOrder=Enum.SortOrder.LayoutOrder}),})_J(_S,_bk)_T=task.spawn(function()while _S and _S.Parent and _bj.Parent do local _bo=_z(_bj)if _bo then local _bu,_bv=pcall(function()_bm.Text=""for _bp,_bq in ipairs(_f)do local _br=_bo:FindFirstChild(_bq)if _br and _br:IsA(_bR(37))then local _bs=_U[_bq]if not _bs then _bs=_W(_bq);_U[_bq]=_bs end if _bs.frame.Parent~=_bn then _bs.frame.Parent=_bn end _bs.frame.Visible=true _bb(_bs,_br.Value)else local _bt=_U[_bq]if _bt then _bt.frame.Visible=false end end end end)if not _bu then _bm.Text=_bR(38)..tostring(_bv)end else _bm.Text=_bj.Name.._bR(39)end task.wait(_h.refresh)end end)end local function _bw(_bx)local _by=_z(_bx)~=nil local _bz=_s(_k(Instance.new(_bR(27)),{Name=_bx.Name,Size=UDim2.new((808-807),(7197-7197),(961-961),_h.rowH),BackgroundColor3=Color3.fromRGB((3932-3892),(-468+511),(3915-3863)),BorderSizePixel=(-1423+1423),AutoButtonColor=_by,LayoutOrder=_by and(9174-9174)or(340-339),Text=_bR(40).._bx.Name,TextXAlignment=Enum.TextXAlignment.Left,Font=Enum.Font.GothamMedium,TextSize=(-5034+5046),TextColor3=_by and Color3.fromRGB((9781-9546),(-3921+4156),(-1369+1609))or Color3.fromRGB((-7809+7939),(9079-8945),(8436-8290)),TextTruncate=Enum.TextTruncate.AtEnd,}),(-1262+1267))_bz.MouseButton1Click:Connect(function()if _z(_bx)then openViewer(_bx)end end)_bz.Parent=_I end local function _bA()for _bB,_bC in ipairs(_I:GetChildren())do if _bC:IsA(_bR(27))then _bC:Destroy()end end local _bD=(-4795+4795)for _bE,_bF in ipairs(_a:GetChildren())do if _bF:IsA(_bR(41))and _bD<_h.maxUsers then _bD+=(-6026+6027)_bw(_bF)end end _I.CanvasSize=UDim2.fromOffset((5792-5792),_bD*(_h.rowH+_h.rowGap)+(4156-4146))end local function _bG(_bH)task.spawn(function()local _bI=_bH:FindFirstChild(_bR(20))or _bH:WaitForChild(_bR(20),(7279-7219))if not _bI then return end _bA()_bI.ChildAdded:Connect(_bA)_bI.ChildRemoved:Connect(_bA)end)end local _bJ,_bK=pcall(_bA)if not _bJ then warn(_bR(42)..tostring(_bK))getgenv().killRepViewer()return end _H.MouseButton1Click:Connect(_bA)_a.PlayerAdded:Connect(function(_bL)_bA()_bG(_bL)end)_a.PlayerRemoving:Connect(function(_bM)if _V==_bM then _bg()end _bA()end)for _bN,_bO in ipairs(_a:GetPlayers())do _bG(_bO)end _c.InputBegan:Connect(function(_bP,_bQ)if _bQ then return end if _bP.KeyCode==Enum.KeyCode.RightControl then getgenv().killRepViewer()end end)getgenv().killrepviewer=getgenv().killRepViewer getgenv().KillRepViewer=getgenv().killRepViewer print(_bR(43))
+-- Player reputation viewer. Read-only, client-side.
+-- Data: Players.<name>.CharacterInfo.FirstName / LastName / InterestGroups.<Group>.Value (0..101)
+--       Party resolved via CharacterInfo.PoliticalParty → ReplicatedStorage.Parties.<id>.PartyName
+--       PoliticalParty is unwrapped across StringValue / ObjectValue / Folder shapes.
+-- Teardown: hold Right-Ctrl, or getgenv().killRepViewer()
+
+local Players            = game:GetService("Players")
+local ReplicatedStorage  = game:GetService("ReplicatedStorage")
+local TweenService       = game:GetService("TweenService")
+local UIS                = game:GetService("UserInputService")
+local LocalPlayer        = Players.LocalPlayer
+
+local MAX = 101
+
+local GROUPS = {
+    "Defense Industry", "Environmentalists", "Financial Industry", "Immigrants",
+    "Middle Class", "Nationalists", "Native Americans", "Parents", "Poor",
+    "Resources Industry", "Rich", "Technology Industry", "Youth",
+}
+
+-- Lower-inclusive, upper-exclusive. Higher entries win.
+local BANDS = {
+    { min = 101, colour = Color3.fromRGB(255, 200, 60) },  -- gold, exact cap
+    { min = 80,  colour = Color3.fromRGB(90, 255, 90) },   -- bright green
+    { min = 70,  colour = Color3.fromRGB(60, 205, 70) },   -- slightly darker green
+    { min = 60,  colour = Color3.fromRGB(70, 165, 60) },   -- darker green
+    { min = 50,  colour = Color3.fromRGB(175, 200, 55) },  -- yellowish green
+    { min = 40,  colour = Color3.fromRGB(240, 150, 40) },  -- orange
+    { min = 30,  colour = Color3.fromRGB(235, 95, 45) },   -- reddish orange
+    { min = 20,  colour = Color3.fromRGB(215, 60, 50) },   -- more reddish orange
+    { min = 10,  colour = Color3.fromRGB(200, 40, 45) },   -- red
+    { min = 0,   colour = Color3.fromRGB(140, 15, 20) },   -- deep red
+}
+
+local CONFIG = {
+    refresh     = 0.5,
+    tweenTime   = 0.5,
+    maxUsers    = 200,
+    trackW      = 190,
+    trackH      = 9,
+    rootW       = 240,
+    rootH       = 400,
+    viewerW     = 280,
+    viewerH     = 420,
+    rowH        = 26,
+    rowGap      = 4,
+    viewerGap   = 300,
+    headerH     = 34,
+    partyH      = 18,
+    subRowH     = 13,
+}
+
+local INDEPENDENT  = "Independant"
+local INDEP_COLOUR = Color3.fromRGB(255, 255, 255)
+local PARTY_COLOUR = Color3.fromRGB(150, 175, 220)
+
+local searchTerm = ""
+
+-- ── teardown, hoisted so it exists before anything can throw ──────────────
+getgenv().killRepViewer = function()
+    local pg = LocalPlayer:FindFirstChild("PlayerGui")
+    local existing = pg and pg:FindFirstChild("RepViewer")
+    if existing then existing:Destroy() end
+end
+
+-- ── builders ──────────────────────────────────────────────────────────────
+local function mk(inst, props, children)
+    for k, v in pairs(props or {}) do inst[k] = v end
+    for _, c in ipairs(children or {}) do c.Parent = inst end
+    return inst
+end
+
+local function corner(inst, r)
+    mk(Instance.new("UICorner"), { CornerRadius = UDim.new(0, r or 0), Parent = inst })
+    return inst
+end
+
+local function colourFor(raw)
+    for _, band in ipairs(BANDS) do
+        if raw >= band.min then return band.colour end
+    end
+    return BANDS[#BANDS].colour
+end
+
+local function getCharacters(player)
+    local ci = player:FindFirstChild("CharacterInfo")
+    return ci and ci:FindFirstChild("InterestGroups") or nil
+end
+
+local function getInfo(player)
+    return player:FindFirstChild("CharacterInfo")
+end
+
+-- "USER1234" → "John Hall", username fallback
+local function displayName(player)
+    local ci = getInfo(player)
+    if not ci then return player.Name end
+
+    local first = ci:FindFirstChild("FirstName")
+    local last  = ci:FindFirstChild("LastName")
+    local f = first and typeof(first.Value) == "string" and first.Value ~= "" and first.Value or nil
+    local l = last  and typeof(last.Value)  == "string" and last.Value  ~= "" and last.Value  or nil
+
+    if f and l then return f .. " " .. l end
+    if f then return f end
+    return player.Name
+end
+
+-- unwrap PoliticalParty across StringValue / ObjectValue / Folder, then read PartyName
+local function partyEntry(player)
+    local ci = getInfo(player)
+    local pp = ci and ci:FindFirstChild("PoliticalParty")
+    if not pp then return nil end
+
+    if pp:IsA("ObjectValue") then
+        return pp.Value
+    end
+
+    local id
+    if pp:IsA("ValueBase") then
+        id = pp.Value
+    elseif pp:IsA("Folder") then
+        local s = pp:FindFirstChildWhichIsA("StringValue", true)
+        id = s and s.Value
+    end
+
+    if typeof(id) ~= "string" or id == "" then return nil end
+    local parties = ReplicatedStorage:FindFirstChild("Parties")
+    return parties and parties:FindFirstChild(id) or nil
+end
+
+local function partyName(player)
+    local entry = partyEntry(player)
+    if not entry then return nil end
+    local pname = entry:FindFirstChild("PartyName", true)
+    local v = pname and pname:IsA("ValueBase") and pname.Value
+    return (typeof(v) == "string" and v ~= "") and v or nil
+end
+
+local function partyLabel(player)
+    return partyName(player) or INDEPENDENT
+end
+
+local function partyColour(player)
+    return partyName(player) and PARTY_COLOUR or INDEP_COLOUR
+end
+
+-- ── shell ─────────────────────────────────────────────────────────────────
+local gui = mk(Instance.new("ScreenGui"), {
+    Name = "RepViewer", ResetOnSpawn = false, IgnoreGuiInset = true,
+    DisplayOrder = 9999999,
+    ZIndexBehavior = Enum.ZIndexBehavior.Sibling, Parent = LocalPlayer:WaitForChild("PlayerGui"),
+})
+
+getgenv().killRepViewer = function()
+    if viewerThread then task.cancel(viewerThread); viewerThread = nil end
+    for _, r in pairs(viewerRows or {}) do
+        if r.tween then r.tween:Cancel() end
+    end
+    viewerRows = {}
+    if viewer then viewer:Destroy(); viewer = nil end
+    viewerTarget = nil
+    if gui then gui:Destroy() end
+end
+
+local root = corner(mk(Instance.new("Frame"), {
+    Name = "Root", Size = UDim2.fromOffset(CONFIG.rootW, CONFIG.rootH),
+    Position = UDim2.new(0.5, -CONFIG.rootW / 2, 0.4, -CONFIG.rootH / 2),
+    BackgroundColor3 = Color3.fromRGB(24, 26, 32), BorderSizePixel = 0,
+    ClipsDescendants = true,
+}), 8)
+root.Parent = gui
+
+mk(Instance.new("UIStroke"), {
+    Color = Color3.fromRGB(60, 64, 76), Thickness = 1,
+    ApplyStrokeMode = Enum.ApplyStrokeMode.Border, Parent = root,
+})
+
+local header = mk(Instance.new("Frame"), {
+    Size = UDim2.new(1, 0, 0, CONFIG.headerH),
+    BackgroundColor3 = Color3.fromRGB(32, 35, 42), BorderSizePixel = 0, ZIndex = 1,
+})
+header.Parent = root
+
+mk(Instance.new("TextLabel"), {
+    Parent = header, Position = UDim2.fromOffset(10, 0), Size = UDim2.new(1, -40, 1, 0),
+    BackgroundTransparency = 1, Font = Enum.Font.GothamBold, TextSize = 13,
+    Text = "Players", TextXAlignment = Enum.TextXAlignment.Left,
+    TextColor3 = Color3.fromRGB(230, 230, 235), ZIndex = 1,
+})
+
+local searchBox = corner(mk(Instance.new("TextBox"), {
+    Size = UDim2.new(1, -14, 0, 22),
+    Position = UDim2.fromOffset(7, CONFIG.headerH + 4),
+    BackgroundColor3 = Color3.fromRGB(44, 48, 58),
+    BorderSizePixel = 0, ZIndex = 1,
+    Font = Enum.Font.GothamMedium, TextSize = 11,
+    TextColor3 = Color3.fromRGB(230, 232, 240),
+    PlaceholderText = "Search players…",
+    PlaceholderColor3 = Color3.fromRGB(130, 134, 146),
+    Text = "", ClearTextOnFocus = false,
+    TextXAlignment = Enum.TextXAlignment.Left,
+}), 5)
+searchBox.Parent = root
+mk(Instance.new("UIPadding"), { PaddingLeft = UDim.new(0, 8), Parent = searchBox })
+
+local listTop = CONFIG.headerH + 32
+
+local list = mk(Instance.new("ScrollingFrame"), {
+    Parent = root, Position = UDim2.fromOffset(0, listTop),
+    Size = UDim2.new(1, 0, 1, -listTop),
+    BackgroundTransparency = 1, BorderSizePixel = 0, ScrollBarThickness = 5,
+    ScrollingDirection = Enum.ScrollingDirection.Y, ZIndex = 1,
+}, {
+    mk(Instance.new("UIPadding"), {
+        PaddingTop = UDim.new(0, 4), PaddingLeft = UDim.new(0, 7),
+        PaddingRight = UDim.new(0, 7), PaddingBottom = UDim.new(0, 6),
+    }),
+    mk(Instance.new("UIListLayout"), {
+        Padding = UDim.new(0, CONFIG.rowGap), SortOrder = Enum.SortOrder.LayoutOrder,
+    }),
+})
+
+-- ── drag ──────────────────────────────────────────────────────────────────
+local function makeDraggable(frame, handle)
+    local dragging, startPos, startAbs
+
+    handle.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1
+        or input.UserInputType == Enum.UserInputType.Touch then
+            dragging  = true
+            startPos  = input.Position
+            startAbs  = frame.AbsolutePosition
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then dragging = false end
+            end)
+        end
+    end)
+
+    UIS.InputChanged:Connect(function(input)
+        if not dragging then return end
+        local d = input.Position - startPos
+        frame.Position = UDim2.fromOffset(startAbs.X + d.X, startAbs.Y + d.Y)
+    end)
+end
+makeDraggable(root, header)
+
+-- ── viewer state + openViewer ─────────────────────────────────────────────
+local viewer, viewerThread, viewerRows, viewerTarget
+
+local function makeBarRow(name)
+    local row = corner(mk(Instance.new("Frame"), {
+        Name = name, Size = UDim2.new(1, 0, 0, 32),
+        BackgroundColor3 = Color3.fromRGB(40, 43, 52), BorderSizePixel = 0,
+        LayoutOrder = 0,
+    }), 5)
+
+    mk(Instance.new("TextLabel"), {
+        Parent = row, Position = UDim2.fromOffset(7, 3), Size = UDim2.new(1, -14, 0, 13),
+        BackgroundTransparency = 1, Font = Enum.Font.GothamMedium, TextSize = 12,
+        Text = name, TextXAlignment = Enum.TextXAlignment.Left,
+        TextColor3 = Color3.fromRGB(235, 235, 240), TextTruncate = Enum.TextTruncate.AtEnd,
+    })
+
+    local bar = corner(mk(Instance.new("Frame"), {
+        Name = "FillBar", Position = UDim2.fromOffset(7, 19),
+        Size = UDim2.fromOffset(CONFIG.trackW, CONFIG.trackH),
+        BackgroundColor3 = Color3.fromRGB(20, 22, 27), BorderSizePixel = 0,
+    }), 1)
+
+    local indicator = corner(mk(Instance.new("Frame"), {
+        Name = "Indicator", Size = UDim2.fromScale(0, 1),
+        BackgroundColor3 = BANDS[#BANDS].colour, BorderSizePixel = 0,
+    }), 1)
+    indicator.Parent = bar
+    bar.Parent = row
+
+    return { frame = row, indicator = indicator, tween = nil }
+end
+
+local function applyValue(r, raw)
+    local v = math.floor(tonumber(raw) or 0)
+    local frac = math.clamp(v / MAX, 0, 1)
+
+    if r.tween then r.tween:Cancel() end
+    r.tween = TweenService:Create(r.indicator,
+        TweenInfo.new(CONFIG.tweenTime, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut),
+        { Size = UDim2.new(frac, 0, 1, 0), BackgroundColor3 = colourFor(v) })
+    r.tween:Play()
+
+    r.frame.LayoutOrder = 100 - frac * 100
+end
+
+local function closeViewer()
+    if viewerThread then task.cancel(viewerThread); viewerThread = nil end
+    for _, r in pairs(viewerRows or {}) do
+        if r.tween then r.tween:Cancel() end
+    end
+    viewerRows = {}
+    if viewer then viewer:Destroy(); viewer = nil end
+    viewerTarget = nil
+end
+
+function openViewer(player)
+    closeViewer()
+    viewerTarget, viewerRows = player, {}
+
+    viewer = corner(mk(Instance.new("Frame"), {
+        Name = "Viewer", Size = UDim2.fromOffset(CONFIG.viewerW, CONFIG.viewerH),
+        Position = UDim2.new(0.5, -CONFIG.viewerW / 2 + CONFIG.viewerGap,
+            0.4, -CONFIG.viewerH / 2),
+        BackgroundColor3 = Color3.fromRGB(24, 26, 32), BorderSizePixel = 0,
+        ClipsDescendants = true,
+    }), 8)
+    viewer.Parent = gui
+
+    mk(Instance.new("UIStroke"), {
+        Color = Color3.fromRGB(60, 64, 76), Thickness = 1,
+        ApplyStrokeMode = Enum.ApplyStrokeMode.Border, Parent = viewer,
+    })
+
+    local vh = mk(Instance.new("Frame"), {
+        Size = UDim2.new(1, 0, 0, CONFIG.headerH + CONFIG.partyH),
+        BackgroundColor3 = Color3.fromRGB(32, 35, 42), BorderSizePixel = 0, ZIndex = 1,
+    })
+    vh.Parent = viewer
+
+    local vName = mk(Instance.new("TextLabel"), {
+        Parent = vh, Position = UDim2.fromOffset(10, 3), Size = UDim2.new(1, -46, 0, 18),
+        BackgroundTransparency = 1, Font = Enum.Font.GothamBold, TextSize = 13,
+        Text = displayName(player), TextXAlignment = Enum.TextXAlignment.Left,
+        TextColor3 = Color3.fromRGB(235, 235, 240), TextTruncate = Enum.TextTruncate.AtEnd,
+        ZIndex = 1,
+    })
+
+    local vParty = mk(Instance.new("TextLabel"), {
+        Parent = vh, Position = UDim2.fromOffset(10, 20), Size = UDim2.new(1, -46, 0, 14),
+        BackgroundTransparency = 1, Font = Enum.Font.Gotham, TextSize = 11,
+        Text = partyLabel(player), TextXAlignment = Enum.TextXAlignment.Left,
+        TextColor3 = partyColour(player),
+        TextTruncate = Enum.TextTruncate.AtEnd, ZIndex = 1,
+    })
+
+    local vClose = corner(mk(Instance.new("TextButton"), {
+        Size = UDim2.fromOffset(24, 24), Position = UDim2.new(1, -28, 0, 5),
+        BackgroundColor3 = Color3.fromRGB(180, 60, 60), Text = "×", TextSize = 16,
+        Font = Enum.Font.GothamBold, TextColor3 = Color3.new(1, 1, 1), AutoButtonColor = true,
+        ZIndex = 2,
+    }), 6)
+    vClose.Parent = vh
+    vClose.MouseButton1Click:Connect(closeViewer)
+
+    local vListTop = CONFIG.headerH + CONFIG.partyH + 6
+
+    local vList = mk(Instance.new("ScrollingFrame"), {
+        Parent = viewer, Position = UDim2.fromOffset(0, vListTop),
+        Size = UDim2.new(1, 0, 1, -vListTop),
+        BackgroundTransparency = 1, BorderSizePixel = 0, ScrollBarThickness = 5,
+        ScrollingDirection = Enum.ScrollingDirection.Y, ZIndex = 1,
+    }, {
+        mk(Instance.new("UIPadding"), {
+            PaddingTop = UDim.new(0, 4), PaddingLeft = UDim.new(0, 10),
+            PaddingRight = UDim.new(0, 10), PaddingBottom = UDim.new(0, 6),
+        }),
+        mk(Instance.new("UIListLayout"), { Padding = UDim.new(0, 5), SortOrder = Enum.SortOrder.LayoutOrder }),
+    })
+
+    makeDraggable(viewer, vh)
+
+    viewerThread = task.spawn(function()
+        while viewer and viewer.Parent and player.Parent do
+            vName.Text = displayName(player)
+            vParty.Text = partyLabel(player)
+            vParty.TextColor3 = partyColour(player)
+
+            local groups = getCharacters(player)
+            if groups then
+                local ok = pcall(function()
+                    for _, name in ipairs(GROUPS) do
+                        local stat = groups:FindFirstChild(name)
+                        if stat and stat:IsA("ValueBase") then
+                            local r = viewerRows[name]
+                            if not r then r = makeBarRow(name); viewerRows[name] = r end
+                            if r.frame.Parent ~= vList then r.frame.Parent = vList end
+                            r.frame.Visible = true
+                            applyValue(r, stat.Value)
+                        else
+                            local r = viewerRows[name]
+                            if r then r.frame.Visible = false end
+                        end
+                    end
+                end)
+                if not ok then vName.Text = displayName(player) end
+            end
+            task.wait(CONFIG.refresh)
+        end
+    end)
+end
+
+-- ── picker ────────────────────────────────────────────────────────────────
+local function addUserRow(player)
+    local ready = getCharacters(player) ~= nil
+
+    local btn = corner(mk(Instance.new("TextButton"), {
+        Name = player.Name, Size = UDim2.new(1, 0, 0, CONFIG.rowH + CONFIG.subRowH),
+        BackgroundColor3 = Color3.fromRGB(40, 43, 52), BorderSizePixel = 0,
+        AutoButtonColor = ready, LayoutOrder = ready and 0 or 1, Text = "", ZIndex = 1,
+    }), 5)
+
+    mk(Instance.new("TextLabel"), {
+        Parent = btn, Position = UDim2.fromOffset(7, 2), Size = UDim2.new(1, -14, 0, 15),
+        BackgroundTransparency = 1, Font = Enum.Font.GothamMedium, TextSize = 12,
+        Text = displayName(player), TextXAlignment = Enum.TextXAlignment.Left,
+        TextColor3 = ready and Color3.fromRGB(235, 235, 240) or Color3.fromRGB(130, 134, 146),
+        TextTruncate = Enum.TextTruncate.AtEnd, ZIndex = 1,
+    })
+
+    mk(Instance.new("TextLabel"), {
+        Parent = btn, Position = UDim2.fromOffset(7, 16), Size = UDim2.new(1, -14, 0, 12),
+        BackgroundTransparency = 1, Font = Enum.Font.Gotham, TextSize = 10,
+        Text = partyLabel(player), TextXAlignment = Enum.TextXAlignment.Left,
+        TextColor3 = partyColour(player),
+        TextTruncate = Enum.TextTruncate.AtEnd, ZIndex = 1,
+    })
+
+    btn.MouseButton1Click:Connect(function()
+        if getCharacters(player) then openViewer(player) end
+    end)
+    btn.Parent = list
+end
+
+local function rebuildUserList()
+    for _, c in ipairs(list:GetChildren()) do
+        if c:IsA("TextButton") or c:IsA("TextLabel") then c:Destroy() end
+    end
+
+    local total, n, matched = 0, 0, 0
+    for _, p in ipairs(Players:GetChildren()) do
+        if p:IsA("Player") and n < CONFIG.maxUsers then
+            n += 1
+            local label = displayName(p)
+            if searchTerm == "" or string.find(string.lower(label), searchTerm, 1, true) then
+                matched += 1
+                addUserRow(p)
+                total += CONFIG.rowH + CONFIG.subRowH + CONFIG.rowGap
+            end
+        end
+    end
+
+    list.CanvasSize = UDim2.fromOffset(0, total + 10)
+
+    if matched == 0 and searchTerm ~= "" then
+        mk(Instance.new("TextLabel"), {
+            Parent = list, Size = UDim2.new(1, 0, 0, 24), BackgroundTransparency = 1,
+            Font = Enum.Font.Gotham, TextSize = 11,
+            Text = "No players match", TextColor3 = Color3.fromRGB(130, 134, 146),
+            TextXAlignment = Enum.TextXAlignment.Center, LayoutOrder = 9999,
+        })
+    end
+end
+
+local pendingRebuild = false
+local function queuedRebuild()
+    if pendingRebuild then return end
+    pendingRebuild = true
+    task.defer(function()
+        pendingRebuild = false
+        local ok, err = pcall(rebuildUserList)
+        if not ok then warn("[RepViewer] rebuild failed: " .. tostring(err)) end
+    end)
+end
+
+searchBox:GetPropertyChangedSignal("Text"):Connect(function()
+    searchTerm = string.lower(searchBox.Text)
+    queuedRebuild()
+end)
+
+local function watchCharacterInfo(player)
+    task.spawn(function()
+        local ci = player:FindFirstChild("CharacterInfo")
+            or player:WaitForChild("CharacterInfo", 60)
+        if not ci then return end
+
+        queuedRebuild()
+
+        local function bindValue(v)
+            if v and v:IsA("ValueBase") then
+                v:GetPropertyChangedSignal("Value"):Connect(queuedRebuild)
+            end
+        end
+
+        for _, key in ipairs({ "FirstName", "LastName", "PoliticalParty" }) do
+            bindValue(ci:FindFirstChild(key))
+        end
+
+        ci.ChildAdded:Connect(function(c)
+            queuedRebuild()
+            if c.Name == "FirstName" or c.Name == "LastName" or c.Name == "PoliticalParty" then
+                bindValue(c)
+            end
+        end)
+        ci.ChildRemoved:Connect(queuedRebuild)
+
+        task.spawn(function()
+            local entry = partyEntry(player)
+            local pname = entry and entry:FindFirstChild("PartyName", true)
+            if pname and pname:IsA("ValueBase") then
+                pname:GetPropertyChangedSignal("Value"):Connect(queuedRebuild)
+            end
+        end)
+    end)
+end
+
+-- ── boot ──────────────────────────────────────────────────────────────────
+local ok, err = pcall(rebuildUserList)
+if not ok then
+    warn("[RepViewer] boot failed: " .. tostring(err))
+    getgenv().killRepViewer()
+    return
+end
+
+Players.PlayerAdded:Connect(function(p)
+    queuedRebuild()
+    watchCharacterInfo(p)
+end)
+Players.PlayerRemoving:Connect(function(p)
+    if viewerTarget == p then closeViewer() end
+    queuedRebuild()
+end)
+
+for _, p in ipairs(Players:GetPlayers()) do
+    watchCharacterInfo(p)
+end
+
+-- ── keybind teardown ──────────────────────────────────────────────────────
+UIS.InputBegan:Connect(function(input, busy)
+    if busy then return end
+    if input.KeyCode == Enum.KeyCode.RightControl then
+        getgenv().killRepViewer()
+    end
+end)
+
+getgenv().killrepviewer = getgenv().killRepViewer
+getgenv().KillRepViewer = getgenv().killRepViewer
+
+print("[RepViewer] loaded — hold Right-Ctrl to close")
